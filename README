@@ -44,7 +44,7 @@ ic.settings = {
 To submit to the list, we specify the form fields to be submitted:
 
 ic = Icontact.new
-ic.submit(:fields_fname => "nate", :fields_lname => "miller", :fields_email => "nate@natemiller.org")
+ic.submit(:fields_fname => "nate", :fields_lname => "miller", :fields_email => "nate@fromouterspace.org")
 output => true
 
 If the service is not able to process the data the resulting output will be 'false'
